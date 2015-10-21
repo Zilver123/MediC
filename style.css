@@ -1,0 +1,212 @@
+body {
+    background: url('http://i.imgur.com/n7XGGk2.png');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.bar {
+    background-color: #E0E3E3;
+    opacity: 0.6;
+    height: 80px;
+    display: block;
+    border-bottom: solid white 1px;
+}
+
+.bar .menu-button {
+    margin-left: 10px;
+}
+
+.bar .menu-button .menu-toggle {
+    background-image: url('http://i.imgur.com/NKX54LA.png');
+    background-color: #f3f3f3;
+    cursor: pointer;
+    height: 80px;
+    width: 80px;
+    float: left;
+    border-radius: 100px;
+    position: absolute;
+    z-index: 6;
+}
+
+.bar .menu-button .circle1 {
+    background-color: #FF0000;
+    opacity: 0.5;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    position: absolute;
+    z-index: 5;
+}
+
+.bar .menu-button .circle1 a {
+    color: white;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.bar .menu-button .circle2 {
+    background-color: #4DDF00;
+    opacity: 0.5;
+    height: 80px;
+    width: 80px;
+    float: left;
+    border-radius: 50px;
+    position: absolute;
+    z-index: 4;
+}
+
+.bar .menu-button .circle2 a {
+    color: white;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.bar .menu-button .circle3 {
+    background-color: #FFCC00;
+    opacity: 0.5;
+    height: 80px;
+    width: 80px;
+    float: left;
+    border-radius: 50px;
+    position: absolute;
+    z-index: 3;
+}
+
+.bar .menu-button .circle3 a {
+    color: white;
+    position: absolute;
+    margin-left: 27px;
+    margin-top: 30px;
+}
+
+.bar .menu-button .circle-background {
+    background-color: #f3f3f3;
+    opacity: 1;
+    height: 80px;
+    width: 80px;
+    size: 50%;
+    float: left;
+    border-radius: 50px;
+    position: absolute;
+    z-index: 2;
+}
+
+.bar .loggo {
+    background-color: #BCBEBE;
+    width: 250px;
+    height: 80px;
+    position: relative;
+    margin-left: 80px;
+    margin: auto;
+
+}
+
+.jumbotron {
+    //background-image: url('https://i.imgur.com/ICx6Krm.png');
+    //background-color: #f3f3f3;
+    height: 225px;
+    width: 100%;
+    display: inline-block;
+    border-bottom: solid white 1px;
+}
+
+.jumbotron .text-block {
+    background: rgba(0, 0, 0, 0.3);
+    height: 150px;
+    width: 480px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.jumbotron .text-block {
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Lucida Console';
+}
+
+.info-bar {
+    background-color: #E0E3E3;
+    opacity: 0.6;
+    padding: 15px;
+}
+
+.info-bar .description {
+    background-image: url('http://i.imgur.com/n7XGGk2.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #a0e200;
+    height: 30px;
+    width: 300px;
+    border-radius: 15px;
+    border: solid white 2px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.info-bar .description p {
+    font-size: 17;
+    text-align: center;
+    line-height: 120%;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 7;
+}
+
+.selection-box {
+    background-color: gray;
+    height: 500px;
+}
+
+.selection-box .select {
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+
+.selection-box .select .button1 {
+    background-color: #f3f3f3;
+    height: 50px;
+    width: 200px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom: solid gray 2px;
+    margin: auto;
+}
+
+.selection-box .select .button1 p {
+    margin-top: ;
+}
+
+.selection-box .diagnosis {
+    background-color: green;
+    height: 500px;
+    width: 500px;
+    display: inline-block;
+}
+
+//.myButton {
+	background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+//.myButton:hover {
+	background-color:#5cbf2a;
+}
+
+//.myButton:active {
+	position:relative;
+	top:1px;
+}
