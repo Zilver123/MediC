@@ -12,11 +12,11 @@ body {
     border-bottom: solid white 1px;
 }
 
-.menu-button {
+.bar .menu-button {
     margin-left: 10px;
 }
 
-.menu-button .menu-toggle {
+.bar .menu-button .menu-toggle {
     background-image: url('http://i.imgur.com/NKX54LA.png');
     background-color: #f3f3f3;
     cursor: pointer;
@@ -28,7 +28,7 @@ body {
     z-index: 6;
 }
 
-.menu-button .circle1 {
+.bar .menu-button .circle1 {
     background-color: #FF0000;
     opacity: 0.5;
     height: 80px;
@@ -38,14 +38,14 @@ body {
     z-index: 5;
 }
 
-.menu-button .circle1 a {
+.bar .menu-button .circle1 a {
     color: white;
     position: absolute;
     margin-left: 20px;
     margin-top: 30px;
 }
 
-.menu-button .circle2 {
+.bar .menu-button .circle2 {
     background-color: #4DDF00;
     opacity: 0.5;
     height: 80px;
@@ -56,14 +56,14 @@ body {
     z-index: 4;
 }
 
-.menu-button .circle2 a {
+.bar .menu-button .circle2 a {
     color: white;
     position: absolute;
     margin-left: 20px;
     margin-top: 30px;
 }
 
-.menu-button .circle3 {
+.bar .menu-button .circle3 {
     background-color: #FFCC00;
     opacity: 0.5;
     height: 80px;
@@ -74,14 +74,14 @@ body {
     z-index: 3;
 }
 
-.menu-button .circle3 a {
+.bar .menu-button .circle3 a {
     color: white;
     position: absolute;
     margin-left: 27px;
     margin-top: 30px;
 }
 
-.menu-button .circle-background {
+.bar .menu-button .circle-background {
     background-color: #f3f3f3;
     height: 80px;
     width: 80px;
