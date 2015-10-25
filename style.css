@@ -4,8 +4,9 @@ body {
     background-size: cover;
 }
 .bar {
-    background-color: #E0E3E3;
-    opacity: 0.6;
+	background: rgba(224, 227, 227, 0.6);
+    //background-color: #E0E3E3;
+    //opacity: 0.6;
     height: 80px;
     display: block;
     border-bottom: solid white 1px;
